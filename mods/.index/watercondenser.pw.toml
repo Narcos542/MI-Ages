@@ -1,0 +1,16 @@
+filename = 'watercondenser-1.21.1-1.5.1.jar'
+name = 'Water condenser'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b11edc193f0743193ce1d275a5e65cb5b01922bc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5772054
+project-id = 663013

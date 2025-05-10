@@ -1,0 +1,16 @@
+filename = 'dnejei-1.21.1-0.2.0.jar'
+name = 'Data & Essence JEI Plugin'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c8f86e16b03260ca9e696ec816b9ac21070e4d2c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6406529
+project-id = 1224607
