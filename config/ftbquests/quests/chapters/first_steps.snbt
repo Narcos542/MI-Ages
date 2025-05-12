@@ -1,0 +1,530 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "first_steps"
+	group: "4602108FDD7051BD"
+	id: "1DE9AF77B4D50480"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "22F6F4D5CF2C2BE8"
+			tasks: [{
+				count: 20L
+				id: "3474EA39DE0D2B02"
+				item: { count: 20, id: "minecraft:gravel" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22F6F4D5CF2C2BE8"]
+			id: "203B742A5DB473FA"
+			tasks: [{
+				id: "1626201A23EE485E"
+				item: { count: 1, id: "ytech:sharp_flint" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["203B742A5DB473FA"]
+			id: "286CADEC3AB44CCE"
+			tasks: [{
+				count: 7L
+				id: "0F71C8F1CE5D6E67"
+				item: { count: 7, id: "ytech:grass_fibers" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["286CADEC3AB44CCE"]
+			id: "7635ED9379E95573"
+			tasks: [{
+				id: "256411F55BFDE799"
+				item: { count: 1, id: "ytech:grass_twine" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "1F631D74E519A65D"
+			tasks: [{
+				count: 3L
+				id: "0C9203A4A33C6622"
+				item: { count: 3, id: "minecraft:stick" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "759483B6196A8D38"
+			tasks: [{
+				count: 5L
+				id: "0FDDA39521D92A05"
+				item: { count: 5, id: "ytech:pebble" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7635ED9379E95573"]
+			id: "30B7522161DC8B1B"
+			tasks: [{
+				id: "5905E2F5CE118D29"
+				item: { components: { "tiered:tiered_modifier": "tiered:standard_weapons/common" }, count: 1, id: "ytech:flint_axe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["30B7522161DC8B1B"]
+			id: "3B77EDA3E715F8ED"
+			tasks: [{
+				count: 16L
+				id: "7EECE34CF3EE7B8C"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1F631D74E519A65D"
+				"7635ED9379E95573"
+			]
+			id: "244621C9368A3934"
+			tasks: [{
+				id: "0EC189BBFCD0675C"
+				item: { count: 1, id: "ytech:crafting_workspace" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"244621C9368A3934"
+				"3B77EDA3E715F8ED"
+			]
+			id: "29F05931D0564717"
+			shape: "diamond"
+			tasks: [{
+				id: "020311F4DEE019DA"
+				item: { count: 1, id: "ytech:jungle_tanning_rack" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			id: "338029494A6F98B3"
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "ytech:deer"
+					id: "403306F3F6906258"
+					type: "kill"
+					value: 5L
+				}
+				{
+					id: "4D2A2062DBE3F707"
+					item: { count: 1, id: "ytech:antler" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"29F05931D0564717"
+				"338029494A6F98B3"
+			]
+			id: "5634B70F205A9FB4"
+			shape: "diamond"
+			tasks: [{
+				id: "5B26979E5FB319D1"
+				item: { count: 1, id: "minecraft:leather" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5634B70F205A9FB4"]
+			id: "6E680C846961BFE3"
+			tasks: [{
+				id: "23A1CB41EDA3F5BF"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6E680C846961BFE3"]
+			id: "6C4A1AADB9B7B07A"
+			tasks: [{
+				id: "335384A56E6C8F36"
+				item: { components: { "tiered:tiered_modifier": "tiered:standard_tools/common" }, count: 1, id: "minecraft:wooden_shovel" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"759483B6196A8D38"
+				"1F631D74E519A65D"
+			]
+			id: "12EA2728AD90FABD"
+			tasks: [{
+				id: "40958954FC490977"
+				item: { count: 1, id: "ytech:fire_pit" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6E680C846961BFE3"]
+			id: "1F7DF0379C917C3B"
+			tasks: [{
+				id: "0E0C2BCC04E41F23"
+				item: { count: 1, id: "ytech:antler_pickaxe" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6E680C846961BFE3"]
+			id: "19F4ECE3B256B396"
+			tasks: [{
+				id: "11038CD6D0DE0D11"
+				item: { count: 1, id: "ytech:bone_needle" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["19F4ECE3B256B396"]
+			id: "3311BAD6D1B590DE"
+			tasks: [
+				{
+					id: "557225C23E234BB7"
+					item: { count: 1, id: "minecraft:leather_helmet" }
+					type: "item"
+				}
+				{
+					id: "4CFF7AB4AA1ACC86"
+					item: { count: 1, id: "minecraft:leather_chestplate" }
+					type: "item"
+				}
+				{
+					id: "25EED5CAC302A7E7"
+					item: { count: 1, id: "minecraft:leather_leggings" }
+					type: "item"
+				}
+				{
+					id: "35F384ED850CC5B3"
+					item: { count: 1, id: "minecraft:leather_boots" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["19F4ECE3B256B396"]
+			id: "745BE9DA293006D1"
+			tasks: [{
+				id: "29EB0056E87ABFC0"
+				item: { count: 1, id: "ytech:basket" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6E680C846961BFE3"]
+			id: "6823D5F00B44B271"
+			tasks: [{
+				id: "51ECCCD970B05A9C"
+				item: { count: 1, id: "ytech:brick_mold" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6823D5F00B44B271"]
+			id: "4085CB643DA032AF"
+			tasks: [{
+				count: 64L
+				id: "21C00B24B2880F30"
+				item: { count: 64, id: "ytech:unfired_brick" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4085CB643DA032AF"
+				"16E9CEC9B10725B7"
+			]
+			id: "173695E379285022"
+			tasks: [{
+				count: 64L
+				id: "258E2FB9E0FD9D4A"
+				item: { count: 64, id: "minecraft:brick" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["244621C9368A3934"]
+			id: "16E9CEC9B10725B7"
+			tasks: [{
+				id: "47B88E7DC5BDF56B"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["173695E379285022"]
+			id: "0194B16954142DC5"
+			tasks: [
+				{
+					id: "1ABAB1A1FCA7B3EA"
+					item: { count: 64, id: "ytech:primitive_smelter" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0D88315839CC85AD"
+					item: { count: 4, id: "ytech:brick_chimney" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6E680C846961BFE3"]
+			id: "0258566E7211713C"
+			tasks: [{
+				id: "2D1E12DF3DA53774"
+				item: { count: 1, id: "ytech:flint_spear" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6E680C846961BFE3"]
+			id: "56956E24B043B41A"
+			tasks: [{
+				id: "45A90B130E7EDAB0"
+				item: { count: 1, id: "ytech:flint_knife" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			id: "756A7D4C599DA4A3"
+			tasks: [
+				{
+					id: "25E29725EF90CFA5"
+					item: { count: 1, id: "ytech:strainer" }
+					type: "item"
+				}
+				{
+					id: "2E948C8AF43690DB"
+					item: { count: 1, id: "ytech:twine_mesh" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			id: "21FF24C4A7D76ECD"
+			tasks: [{
+				id: "51404B7B5FB3BF50"
+				item: { count: 1, id: "minecraft:raw_copper" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			id: "22C4000478DEF200"
+			tasks: [{
+				id: "6156C1C8BE1539C7"
+				item: { count: 1, id: "minecraft:raw_iron" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			id: "20CA0D9DE51A42FC"
+			tasks: [{
+				id: "34B0E540C4E40D2A"
+				item: { count: 1, id: "minecraft:raw_gold" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["759483B6196A8D38"]
+			id: "17A44FD7738F4496"
+			tasks: [{
+				id: "6AEFE9A806141BF2"
+				item: { count: 1, id: "ytech:stone_mortar_and_pestle" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"17A44FD7738F4496"
+				"173695E379285022"
+			]
+			id: "687476E0881C0199"
+			tasks: [{
+				id: "280F95A75917606A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:crushed_materials)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["173695E379285022"]
+			id: "47E53EE513FC869B"
+			tasks: [{
+				id: "1B5C2848B3E2D78E"
+				item: { count: 1, id: "ytech:unfired_ingot_mold" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0194B16954142DC5"
+				"47E53EE513FC869B"
+			]
+			id: "381A3CED5651E989"
+			tasks: [{
+				id: "6BAACB0F4E014807"
+				item: { count: 1, id: "ytech:ingot_clay_mold" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			id: "7C002DE8DFC45FD9"
+			tasks: [{
+				id: "015CEE8078CB99A9"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			id: "5EE65153AC6D44B1"
+			tasks: [{
+				id: "7A9E0EDED5B3BF19"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			id: "20AF188BFDB859B9"
+			tasks: [{
+				id: "63B8830ADC1750C4"
+				item: { count: 1, id: "ytech:tin_ingot" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["244621C9368A3934"]
+			id: "0528A7114DC06152"
+			tasks: [{
+				id: "72B8B548D6DDE028"
+				item: { count: 1, id: "ytech:tree_stump" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			id: "00DD7D7D33A1B40E"
+			tasks: [{
+				id: "0CA62AD7781A55D8"
+				item: { count: 1, id: "ytech:strainer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "56AE77021D975ACD"
+			tasks: [{
+				id: "7432DDDF6070FAAF"
+				item: { count: 1, id: "ytech:twine_mesh" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "53D226046704B4F5"
+			tasks: [{
+				id: "7536511D4A392455"
+				item: { count: 1, id: "ytech:bronze_mesh" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "3844F342D000826A"
+			tasks: [{
+				id: "472C63F344C5F8BF"
+				item: { count: 1, id: "ytech:copper_mesh" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+	]
+}

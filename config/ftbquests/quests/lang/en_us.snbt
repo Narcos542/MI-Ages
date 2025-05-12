@@ -1,0 +1,11 @@
+{
+	chapter.1DE9AF77B4D50480.title: "First steps"
+	chapter_group.4602108FDD7051BD.title: "Primitive"
+	quest.0528A7114DC06152.quest_desc: ["позволяет рубить деерво на доски 1 к 2, вместо 1 к 1 в верстаке с топором."]
+	quest.12EA2728AD90FABD.quest_desc: ["Позволяет жарить еду и Шифт + ПКМ создавать зажённые факела"]
+	quest.338029494A6F98B3.quest_desc: ["Only deer with antlers drops correct item"]
+	quest.381A3CED5651E989.quest_desc: ["Одна форма 16 плавок(прочность 16)"]
+	quest.756A7D4C599DA4A3.quest_desc: ["Позволяет ловить из источника(текущего) воды гравий, песок, глин. блоки, рыбов"]
+	task.280F95A75917606A.title: "Any #c:crushed_materials"
+	task.7EECE34CF3EE7B8C.title: "Any #minecraft:logs"
+}
