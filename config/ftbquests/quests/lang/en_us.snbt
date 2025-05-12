@@ -5,7 +5,7 @@
 	quest.12EA2728AD90FABD.quest_desc: ["Позволяет жарить еду и Шифт + ПКМ создавать зажённые факела"]
 	quest.338029494A6F98B3.quest_desc: ["Only deer with antlers drops correct item"]
 	quest.381A3CED5651E989.quest_desc: ["Одна форма 16 плавок(прочность 16)"]
-	quest.756A7D4C599DA4A3.quest_desc: ["Позволяет ловить из источника(текущего) воды гравий, песок, глин. блоки, рыбов"]
-	task.280F95A75917606A.title: "Any #c:crushed_materials"
+	task.03E6216AB122478F.title: "Any #c:dusts"
+	task.5D063D32D1C6BB2C.title: "Any #ytech:aqueducts"
 	task.7EECE34CF3EE7B8C.title: "Any #minecraft:logs"
 }
