@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "first_steps"
 	group: "4602108FDD7051BD"
+	icon: {
+		id: "minecraft:flint"
+	}
 	id: "1DE9AF77B4D50480"
 	order_index: 0
 	quest_links: [ ]
@@ -83,7 +86,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -8.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["30B7522161DC8B1B"]
@@ -95,7 +98,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -8.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["7635ED9379E95573"]
@@ -297,7 +300,7 @@
 				item: { count: 1, id: "minecraft:furnace" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: -7.0d
 		}
 		{
@@ -446,7 +449,7 @@
 				type: "item"
 			}]
 			x: 22.0d
-			y: -5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7E2F472A2EA1FA26"]
@@ -457,7 +460,7 @@
 				type: "item"
 			}]
 			x: 21.5d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["244621C9368A3934"]
@@ -487,7 +490,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: -5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["173695E379285022"]
@@ -550,6 +553,14 @@
 		{
 			dependencies: ["1714360882474479"]
 			id: "51BC2EDB324F7ECD"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "modern_industrialization:bronze_boiler"
+				}
+				id: "0DC887212398806D"
+				type: "custom"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -557,8 +568,8 @@
 				item: { count: 1, id: "modern_industrialization:forge_hammer" }
 				type: "item"
 			}]
-			x: 18.17857142857146d
-			y: -0.49642857142858077d
+			x: 17.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0BF78D040CA973B7"]
@@ -570,7 +581,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7C002DE8DFC45FD9"]
@@ -701,7 +712,7 @@
 				type: "item"
 			}]
 			x: 20.5d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["51BC2EDB324F7ECD"]
@@ -752,7 +763,7 @@
 				type: "item"
 			}]
 			x: 20.5d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["51E3EA7E70ECE842"]
@@ -836,7 +847,7 @@
 				type: "item"
 			}]
 			x: 21.0d
-			y: -5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["203B742A5DB473FA"]
@@ -943,7 +954,7 @@
 				}
 			]
 			x: 19.5d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["381A3CED5651E989"]
@@ -972,11 +983,11 @@
 			dependencies: ["244621C9368A3934"]
 			id: "5F151FBC5A68433F"
 			tasks: [{
-				id: "28EEED20F460D557"
+				id: "58E52E0413E151B3"
 				item: { count: 1, id: "ytech:millstone" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: -7.0d
 		}
 		{
@@ -1022,6 +1033,93 @@
 			}]
 			x: 12.0d
 			y: 10.0d
+		}
+		{
+			dependencies: ["5F151FBC5A68433F"]
+			id: "236748177AF3DD3A"
+			tasks: [{
+				id: "03FD4CFDF4EBC8D0"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["410F856A333A2FDF"]
+			id: "428850B1426EB3D4"
+			shape: "diamond"
+			tasks: [{
+				id: "50D6042A2E91482D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ytech:aurochs"
+				type: "observation"
+			}]
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["410F856A333A2FDF"]
+			id: "07E78D29C898CE55"
+			shape: "diamond"
+			tasks: [{
+				id: "63CA2D70315A4D8E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ytech:mouflon"
+				type: "observation"
+			}]
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["410F856A333A2FDF"]
+			id: "55B031B4D7E5DEE3"
+			shape: "diamond"
+			tasks: [{
+				id: "0B6C1FBFE6F19766"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ytech:fowl"
+				type: "observation"
+			}]
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["410F856A333A2FDF"]
+			id: "0EC6045881A3898D"
+			shape: "diamond"
+			tasks: [{
+				id: "6113DFBF32E28B0B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ytech:wild_boar"
+				type: "observation"
+			}]
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["22F6F4D5CF2C2BE8"]
+			id: "410F856A333A2FDF"
+			tasks: [{
+				id: "274F98243AA9482F"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0152C499590DE3E2"]
+			id: "552B1FFCECBD0652"
+			tasks: [{
+				id: "6D2D1E62929B7E6D"
+				item: { count: 1, id: "ytech:well_pulley" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -9.5d
 		}
 	]
 }

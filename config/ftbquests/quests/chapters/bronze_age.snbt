@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bronze_age"
+	group: "414DFD996A564669"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "modern_industrialization:bronze_ingot"
+	}
+	id: "561B8642F13079C1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["51BC2EDB324F7ECD"]
+		id: "7F0EEF2330DB9AB9"
+		tasks: [{
+			id: "35A8919A74C3E989"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

@@ -1,11 +1,37 @@
 {
 	chapter.1DE9AF77B4D50480.title: "First steps"
+	chapter.561B8642F13079C1.title: "Bronze Age"
+	chapter_group.414DFD996A564669.title: "Bronze Age"
 	chapter_group.4602108FDD7051BD.title: "Primitive"
 	quest.0528A7114DC06152.quest_desc: ["позволяет рубить деерво на доски 1 к 2, вместо 1 к 1 в верстаке с топором."]
+	quest.07E78D29C898CE55.quest_desc: ["Wild sheep"]
+	quest.0EC6045881A3898D.quest_desc: ["Wild pig"]
 	quest.12EA2728AD90FABD.quest_desc: ["Позволяет жарить еду и Шифт + ПКМ создавать зажённые факела"]
+	quest.236748177AF3DD3A.quest_desc: [
+		"Можно привязать любого моба которого можно взять в поводок."
+		"Можно установить \"SPEED UPGRADE\" чтобы ускорить дробление, улучшением является взрывное зелье скорости "
+	]
 	quest.338029494A6F98B3.quest_desc: ["Only deer with antlers drops correct item"]
 	quest.381A3CED5651E989.quest_desc: ["Одна форма 16 плавок(прочность 16)"]
+	quest.410F856A333A2FDF.quest_desc: [
+		"To get a domesticated version of animals, you have to breed wild animals!"
+		"{@pagebreak}"
+		"Чтобы получить одомашененную версию животных, необходимо разводить диких животных!"
+	]
+	quest.428850B1426EB3D4.quest_desc: ["Wild cow"]
+	quest.552B1FFCECBD0652.quest_desc: ["ручной-колодец, в разных биомах производит разное кол-во воды, можно подключить к системе акведуков"]
+	quest.55B031B4D7E5DEE3.quest_desc: ["Wikd chicken"]
+	quest.5F151FBC5A68433F.quest_desc: [
+		"Можно привязать мобов чтобы они дробили руду, кости, моба нужно взять в поводок и нажать на этот блок"
+		""
+		"у предметов есть шанс получить бонус при дробление"
+	]
+	reward.0DC887212398806D.title: "New Quest Chapter"
 	task.03E6216AB122478F.title: "Any #c:dusts"
+	task.03FD4CFDF4EBC8D0.title: "Crushing"
+	task.274F98243AA9482F.title: "Animals breeding"
+	task.35A8919A74C3E989.title: "Midle"
+	task.55A9AB2E43857E14.title: "Any #minecraft:beds"
 	task.5D063D32D1C6BB2C.title: "Any #ytech:aqueducts"
 	task.7EECE34CF3EE7B8C.title: "Any #minecraft:logs"
 }
