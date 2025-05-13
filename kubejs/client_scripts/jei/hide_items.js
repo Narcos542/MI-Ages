@@ -35,13 +35,23 @@ RecipeViewerEvents.removeEntries('item', event => {
 		'ytech:iron_bolt', 
 		'ytech:lead_bolt', 
 		'ytech:tin_bolt', 
-		'ytech:bronze_bolt', 
-		'ytech:bronze_anvil', 
-		'ytech:iron_bloom',
+		'ytech:bronze_bolt',  
 		'modern_industrialization:netherite_hammer', 
         'modern_industrialization:steel_hammer', 
         'modern_industrialization:diamond_hammer', 
-        'modern_industrialization:iron_hammer'
+        'modern_industrialization:iron_hammer',
+		'ytech:cassiterite_gravel_deposit', 
+		'ytech:golden_gravel_deposit', 
+		'ytech:nether_iron_ore', 
+		'ytech:nether_cassiterite_ore', 
+		'ytech:nether_copper_ore', 
+		'ytech:nether_galena_ore', 
+		'ytech:cassiterite_sand_deposit', 
+		'ytech:golden_sand_deposit', 
+		'ytech:cassiterite_ore', 
+		'ytech:galena_ore',
+		'ytech:deepslate_cassiterite_ore',
+		'ytech:deepslate_galena_ore'
 	])
 
 })

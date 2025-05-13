@@ -20,7 +20,10 @@ ServerEvents.tags('item', event => {
             'ytech:bronze_bolt', 
             'ytech:copper_bolt', 
             'ytech:tin_bolt', 
-            'ytech:lead_bolt'
+            'ytech:lead_bolt',
+            'ytech:bronze_block',
+            'ytech:tin_block',
+            
         ])
 
         event.add('modern_industrialization:forge_hammer_tools', [
