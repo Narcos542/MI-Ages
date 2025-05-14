@@ -1,4 +1,4 @@
-filename = 'datanessence-1.0.0-alpha-earlygame11.jar'
+filename = 'datanessence-1.0.0-alpha-earlygame12.jar'
 name = 'Data & Essence'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'beta'
 
 [download]
-hash = '5a6ca36f30a8fb3ecef242a5cf963cf3537d1f10'
+hash = '4dc81dadbffcfcd5f2f90335a1b137396e9dc0c6'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6441882
+file-id = 6508079
 project-id = 1189360
