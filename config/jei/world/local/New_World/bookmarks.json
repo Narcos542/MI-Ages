@@ -98,5 +98,6 @@
   {"ingredient":{"id":"minecraft:cauldron"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:oak_fence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ytech:flour"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"supplementaries:pancake"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"supplementaries:pancake"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"arcane_abilities:stellar_sphere","components":{"relics:data":{"abilities":{"abilities":{"stellar_radiance":{"lock":{"breaks":5},"extender":{"cooldownCap":0,"cooldown":0,"ticking":true},"points":0,"stats":{"radius":{"initialValue":4.53722},"dmg":{"initialValue":3.88059}},"research":{"links":{},"researched":false}},"stellar_ascension":{"lock":{"breaks":5},"extender":{"cooldownCap":0,"cooldown":0,"ticking":false},"points":0,"stats":{"radius":{"initialValue":2.67304}},"research":{"links":{},"researched":false}},"stellar_shower":{"lock":{"breaks":5},"extender":{"cooldownCap":0,"cooldown":0,"ticking":false},"points":0,"stats":{"duration":{"initialValue":13.35461},"radius":{"initialValue":4.168},"dmg":{"initialValue":6.68714}},"research":{"links":{},"researched":false}}}},"leveling":{"level":0,"experience":5,"points":0,"luck":0}}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]
