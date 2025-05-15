@@ -1,9 +1,9 @@
 {
   "enableDropsForNonPlayer": true,
   "enableCrashExplosion": true,
-  "enableCrashBlockDestruction": false,
-  "enableCrashFire": false,
-  "crashExplosionRadius": 2.0,
+  "enableCrashBlockDestruction": true,
+  "enableCrashFire": true,
+  "crashExplosionRadius": 200.0,
   "crashDamage": 2.0,
   "preventKillThroughCrash": true,
   "healthBarRow": 0,

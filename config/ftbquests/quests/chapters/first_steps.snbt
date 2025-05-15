@@ -82,7 +82,7 @@
 			id: "30B7522161DC8B1B"
 			tasks: [{
 				id: "5905E2F5CE118D29"
-				item: { components: { "tiered:tiered_modifier": "tiered:standard_weapons/common" }, count: 1, id: "ytech:flint_axe" }
+				item: { count: 1, id: "ytech:flint_axe" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -1142,6 +1142,16 @@
 			}]
 			x: 15.0d
 			y: -1.5d
+		}
+		{
+			id: "357CC2253FDA3DA1"
+			tasks: [{
+				id: "3E3CB7FA5387ECAF"
+				item: { count: 1, id: "eccentrictome:tome" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.5d
 		}
 	]
 }

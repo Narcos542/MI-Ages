@@ -10,14 +10,26 @@
 	id: "561B8642F13079C1"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["51BC2EDB324F7ECD"]
-		id: "7F0EEF2330DB9AB9"
-		tasks: [{
-			id: "35A8919A74C3E989"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["51BC2EDB324F7ECD"]
+			id: "7F0EEF2330DB9AB9"
+			tasks: [{
+				id: "35A8919A74C3E989"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6E57514B8D09F6D8"
+			tasks: [{
+				id: "45A509548F9C972D"
+				item: { count: 1, id: "waystones:waystone" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+	]
 }

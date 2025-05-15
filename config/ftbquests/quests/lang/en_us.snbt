@@ -39,6 +39,11 @@
 		""
 		"у предметов есть шанс получить бонус при дробление"
 	]
+	quest.6E57514B8D09F6D8.quest_desc: [
+		"nearby pets teleport with you"
+		""
+		"leashed mobs teleport with you"
+	]
 	reward.0DC887212398806D.title: "New Quest Chapter"
 	task.03E6216AB122478F.title: "Any #c:dusts"
 	task.03FD4CFDF4EBC8D0.title: "Crushing"
