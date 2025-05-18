@@ -65,8 +65,7 @@ ServerEvents.recipes(event => {
     .itemOut("modern_industrialization:electric_mi_furnace")
     
     event.forEachRecipe({ type: 'minecraft:smelting' }, kubeRecipe => {
-        let { originalRecipeResult: result, originalRecipeIngredients: ingredients } = kubeRecipe;
-        
+        let { originalRecipeResult: result, originalRecipeIngredients: ingredients } = kubeRecipe; 
         event.recipes.modern_industrialization.mi_furnace(2, 200).itemIn(ingredients).itemOut(result);
     });
     
@@ -83,5 +82,23 @@ ServerEvents.recipes(event => {
     .itemIn("minecraft:raw_gold")
     .itemOut("minecraft:gold_ingot")
 
+    const minecraft_metals_for_furnace = ['copper', 'gold', 'iron'];
+    const MI_metals_for_furnace = ['antimony', 'lead', 'iridium', 'tin', 'nickel'];
+
+    MI_metals_for_furnace.forEach(metal => {        
+        event.remove({type: 'minecraft:smelting', input: `modern_industrialization:raw_${metal}`})
+        event.remove({type: 'minecraft:smelting', input: `modern_industrialization:${metal}_dust`})
+        event.remove({type: 'minecraft:smelting', input: `modern_industrialization:${metal}_ore`})
+        event.remove({type: 'minecraft:smelting', input: `modern_industrialization:deepslate_${metal}_ore`})
+        event.remove({type: 'minecraft:smelting', input: `modern_industrialization:${metal}_tiny_dust`})
+    });
+
+    minecraft_metals_for_furnace.forEach(metal => {        
+        event.remove({type: 'minecraft:smelting', input: `minecraft:raw_${metal}`})
+        event.remove({type: 'minecraft:smelting', input: `modern_industrialization:${metal}_dust`})
+        event.remove({type: 'minecraft:smelting', input: `minecraft:${metal}_ore`})
+        event.remove({type: 'minecraft:smelting', input: `minecraft:deepslate_${metal}_ore`})
+        event.remove({type: 'minecraft:smelting', input: `modern_industrialization:${metal}_tiny_dust`})
+    });
 
 })

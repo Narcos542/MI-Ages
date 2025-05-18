@@ -1,0 +1,16 @@
+{
+    "type": "ytech:smelting",
+    "ingredient": {
+        "item": "modern_industrialization:tin_dust"
+    },
+    "inputCount": 1,
+    "minTemp": 1100,
+    "mold": {
+        "tag": "ytech:molds/ingot"
+    },
+    "result": {
+        "count": 1,
+        "id": "modern_industrialization:tin_ingot"
+    },
+    "smeltingTime": 200
+}
